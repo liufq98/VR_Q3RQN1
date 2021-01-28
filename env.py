@@ -1,5 +1,6 @@
 import numpy as np
 #test from Pycharm Ran
+#test from Laptop Ran
 
 class Env_VR():
     def __init__(self, USER_NUM=3, Resource_Block_NUM=20):
