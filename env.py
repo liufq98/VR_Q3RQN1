@@ -1,6 +1,5 @@
 import numpy as np
 
-test for github
 
 Hello FangQi, This is Ran Speaking
 Ran Speaking V2
