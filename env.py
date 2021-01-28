@@ -2,6 +2,8 @@ import numpy as np
 
 test for github
 
+Hello FangQi, This is Ran Speaking
+
 class Env_VR():
     def __init__(self, USER_NUM=3, Resource_Block_NUM=20):
         self.USER_NUM = USER_NUM
