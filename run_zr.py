@@ -1,5 +1,5 @@
 
-from env_v2 import Env_VR
+from env import Env_VR
 from d3qn import D3QN,Agent
 import numpy as np
 from tqdm import tqdm
@@ -7,6 +7,8 @@ from tensorflow.compat.v1 import ConfigProto
 from tensorflow.compat.v1 import InteractiveSession
 import scipy.io
 config = ConfigProto()
+
+print(33333)
 
 config.gpu_options.allow_growth = True
 session = InteractiveSession(config=config)
