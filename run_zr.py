@@ -7,7 +7,7 @@ from tensorflow.compat.v1 import ConfigProto
 from tensorflow.compat.v1 import InteractiveSession
 import scipy.io
 config = ConfigProto()
-
+print(111)
 config.gpu_options.allow_growth = True
 session = InteractiveSession(config=config)
 EPISODE_Length = 200
